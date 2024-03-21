@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-21T11:16:31 IST" name="Default suite" finished-at="2024-03-21T11:16:45 IST" duration-ms="13980">
+    <groups>
+    </groups>
+    <test started-at="2024-03-21T11:16:31 IST" name="Default test" finished-at="2024-03-21T11:16:45 IST" duration-ms="13980">
+      <class name="com.sauce_demo.test_cases.TestSwagLabs">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.sauce_demo.test_cases.TestSwagLabs@2e8c1c9b]" started-at="2024-03-21T11:16:31 IST" name="loginToApp" finished-at="2024-03-21T11:16:38 IST" duration-ms="7187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="tc_001()[pri:0, instance:com.sauce_demo.test_cases.TestSwagLabs@2e8c1c9b]" started-at="2024-03-21T11:16:38 IST" name="tc_001" finished-at="2024-03-21T11:16:40 IST" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="studDown()[pri:0, instance:com.sauce_demo.test_cases.TestSwagLabs@2e8c1c9b]" started-at="2024-03-21T11:16:40 IST" name="studDown" finished-at="2024-03-21T11:16:41 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.sauce_demo.test_cases.TestSwagLabs@2e8c1c9b]" started-at="2024-03-21T11:16:41 IST" name="loginToApp" finished-at="2024-03-21T11:16:44 IST" duration-ms="3790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="tc_002()[pri:0, instance:com.sauce_demo.test_cases.TestSwagLabs@2e8c1c9b]" started-at="2024-03-21T11:16:44 IST" name="tc_002" finished-at="2024-03-21T11:16:45 IST" depends-on-methods="com.sauce_demo.test_cases.TestSwagLabs.tc_001" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002 -->
+        <test-method is-config="true" signature="studDown()[pri:0, instance:com.sauce_demo.test_cases.TestSwagLabs@2e8c1c9b]" started-at="2024-03-21T11:16:45 IST" name="studDown" finished-at="2024-03-21T11:16:45 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studDown -->
+      </class> <!-- com.sauce_demo.test_cases.TestSwagLabs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
