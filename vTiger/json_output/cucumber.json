@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-02T16:34:46.957Z",
+        "line": 14,
+        "name": "Add a new lead",
+        "description": "",
+        "id": "add-lead;add-a-new-lead;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I am on the create lead page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I fill in lead details with \"Gaurav\", \"Suryawanshi\", \"8888147876\", \"8888147876\", \"Tech Mahindra\", \"Test Engineer\", \"Employee\", \"Banking\", \"Hot\", \"Active\", \"Support Group\", \"123\", \"gs@example.com\", \"www.example.com\", \"123 Hadapsar\", \"411028\", \"411028\", \"India\", \"Pune\", \"MH\", \"New lead\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3999800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I save the lead",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the lead should be successfully added",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Lead",
+    "description": "  As a salesperson\n  I want to add a new lead\n  So that I can manage my leads effectively",
+    "id": "add-lead",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CreateLead.feature",
+    "tags": []
+  }
+]

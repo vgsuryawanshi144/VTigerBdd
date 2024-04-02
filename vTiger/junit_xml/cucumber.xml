@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.434">
+    <testcase classname="Add Lead" name="Add a new lead" time="0.064">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on the create lead page..........................................undefined
+When I fill in lead details with "Gaurav", "Suryawanshi", "8888147876", "8888147876", "Tech Mahindra", "Test Engineer", "Employee", "Banking", "Hot", "Active", "Support Group", "123", "gs@example.com", "www.example.com", "123 Hadapsar", "411028", "411028", "India", "Pune", "MH", "New lead".skipped
+And I save the lead.........................................................skipped
+Then the lead should be successfully added..................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
